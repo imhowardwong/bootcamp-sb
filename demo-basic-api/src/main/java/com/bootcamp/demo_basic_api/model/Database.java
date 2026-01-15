@@ -1,0 +1,11 @@
+package com.bootcamp.demo_basic_api.model;
+
+import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.List;
+
+public class Database {
+  public static List<String> names = new ArrayList<>();
+
+  public static List<Student> students = new LinkedList<>();
+}
